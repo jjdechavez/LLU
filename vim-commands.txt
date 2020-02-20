@@ -1,0 +1,18 @@
+Commands of Vim
+1. To execute commands of vim - Esc
+2. Insert/type data - i
+3. arrow keys - up(k), down(j), left(h), right(l)
+4. exit on vim - :q
+ -> exit with save - :wq
+ -> exit without saving - :q!
+5. save file - :w
+6. delete line - dd
+7. down of the file - G
+8. go back to top file - gg
+9. undo the delete line - u
+10. specify number jump - 10 down(j)
+11. back the changes - ctrl + r
+12. contious delete - dd then press .
+13. copy paste - copy(yy) paste(p) for paste below, paste(P) for paste above
+14. Visual mode or Hightlight - V
+15. Insert empty line 
