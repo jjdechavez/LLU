@@ -18,5 +18,8 @@ About Permissions (777)
 1. change permission - sudo chmod 755 filename/folder -R
 
 About Ownership
-chnage the ownership of file/folder - sudo chown -R user file/folder
-chnage group permission - sudo chgrp -R groupname file/folder
+1. change the ownership of file/folder - sudo chown -R user file/folder
+2. change group permission - sudo chgrp -R groupname file/folder
+
+Reference:
+https://www.youtube.com/watch?v=zRw0SKaXSfI
