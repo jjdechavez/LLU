@@ -1,3 +1,6 @@
+Make sure to install vim
+sudo apt-get install vim
+
 Commands of Vim
 1. To execute commands of vim - Esc
 2. Insert/type data - i
@@ -15,4 +18,14 @@ Commands of Vim
 12. contious delete - dd then press .
 13. copy paste - copy(yy) paste(p) for paste below, paste(P) for paste above
 14. Visual mode or Hightlight - V
-15. Insert empty line 
+15. Insert empty line - below(o) above(O)
+16. move across to the word - w
+17. move back across to prev word - b
+18. show the number of line - :number-of-line (:10 + enter)
+19. cursor to display on the line - 0
+20. cursor of the beginning of the line - ^
+21. cursor of the last of the line - $
+
+
+For Reference:
+https://www.youtube.com/watch?v=IiwGbcd8S7I
