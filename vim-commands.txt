@@ -25,7 +25,29 @@ Commands of Vim
 19. cursor to display on the line - 0
 20. cursor of the beginning of the line - ^
 21. cursor of the last of the line - $
+22. change specific then inser mode - c t j(want to remove)
+23. delete specific character - d t /(character)
+24. search with specific word - *(must cursor on the word inorder to search)
+25. focus on specific character - t
+26. next to instance - ;
+27. move view on the middle - zz
+28. insert before the text - a
+29. insert mode on the last line code - A
+30. delete based on the cursor - x
+31. inser mode on beginning line - I
+32. to lowercase - ~
+33. read last thing you do or command - .
+34. replace depend the cursor - r
 
+Main used commands
+1. w
+2. b
+3. t /(specific character) 
+4. zz
+5. a and A
+6. I 
+7. ~
+8. .
 
 For Reference:
 https://www.youtube.com/watch?v=IiwGbcd8S7I
