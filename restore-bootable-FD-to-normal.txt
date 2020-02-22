@@ -1,0 +1,7 @@
+1. Open your terminal then type gnome-disks
+2. Locate your FD and make sure check the device /dev/sdc
+   -> or command sudo fdisk -l (then locate your FD based on memory and get the dev loc)
+3. sudo wipefs --all /dev/sdc (the FD device loc)
+4. To create partition of FD sudo cdisk /dev/sdc
+5. Pick dos, new, primary, write(able to write to the FD), type yes and quit
+6. Turn the FD to vfat is sudo mkfs.vfat -n 'Name of the FD' /dev/sdc1 (because one we have partion the FD)
