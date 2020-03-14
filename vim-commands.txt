@@ -38,6 +38,7 @@ Commands of Vim
 32. to lowercase - ~
 33. read last thing you do or command - .
 34. replace depend the cursor - r
+35. check the end based on the character - %
 
 Main used commands
 1. w
@@ -48,6 +49,8 @@ Main used commands
 6. I 
 7. ~
 8. .
+9. % d %
+10. V y pp - copy & paste based on highlight
 
 For Reference:
 https://www.youtube.com/watch?v=IiwGbcd8S7I
