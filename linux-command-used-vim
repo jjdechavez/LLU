@@ -4,3 +4,5 @@ jobs -l : Display the list of your running app on terminal
 To backend fort on your vim you can used Ctrl+Z to stopped
 
 Checked your jobs -l then fg or specify fg % what number available on it
+
+You can terminate or kill by kill -9 PID of the job(-9 means force) 
