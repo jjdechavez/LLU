@@ -47,10 +47,11 @@ Main used commands
 4. zz
 5. a and A
 6. I 
-7. ~
+7. ~ (turn the opposite letterseCase)
 8. .
 9. % d %
 10. V y pp - copy & paste based on highlight
+11. v t c
 
 For Reference:
 https://www.youtube.com/watch?v=IiwGbcd8S7I
