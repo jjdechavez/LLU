@@ -53,6 +53,10 @@ Check out :help window-moving for more information
  - :res 50(width)   - Resize vertical base on 
  - :vertical res 50 - Resize horizontal 
 
+" git/fugitive
+ - :Git (or just :G), which calls any arbitrary Git command.
+ - :G add
+ - :G commit 
 
 
  Main used commands
