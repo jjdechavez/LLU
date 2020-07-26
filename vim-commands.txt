@@ -40,7 +40,23 @@ Commands of Vim
 34. replace depend the cursor - r
 35. check the end based on the character - %
 
-Main used commands
+" Moving windows / multiple windows
+
+ - Ctrl W + L - Move the current window to the "far right"
+ - Ctrl W + H - Move the current window to the "far left"
+ - Ctrl W + J - Move the current window to the "very bottom"
+ - Ctrl W + K - Move the current window to the "very top"
+
+Check out :help window-moving for more information
+
+" Resize split window
+ - :res 50(width)   - Resize vertical base on 
+ - :vertical res 50 - Resize horizontal 
+
+
+
+ Main used commands
+
 1. w
 2. b
 3. t /(specific character) 
