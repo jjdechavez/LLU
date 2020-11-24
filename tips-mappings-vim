@@ -1,0 +1,24 @@
+There's different mode mapping
+(n: normal mode, v: visual mode, i: insert mode)
+- nmap
+- vmap
+- imap
+
+To avoid recursive mappings make sure to put "nore" after mode of map
+sample - nnoremap
+
+*real scenario*
+```vim
+imap l kk
+inoremap l aa
+imap a g
+```
+
+when you're in insert mode and type l after the imap finished the map.
+it will truigger the inoremap l which have aa map then i will stop the revursive mappings.
+
+<leader> means the leader key that you set on your vim. Which can found "let mapleader"
+
+<CR> means character return or enter to proceed on next line.
+
+<c-r> || <C-r> means Ctrl+r and run the map
