@@ -1,0 +1,31 @@
+About SSH
+- Secure Shell
+- Networking Protocol
+- Allows secure communications
+- Can secure any network server
+- Use to connect to server
+
+To connect to the server with ssh
+ssh username@serverhost
+
+sample of serverhost: 
+- 192.168.0.25
+- 142.141.140.139
+- junior.com
+- example.com
+
+SSH store on your .ssh folder
+
+To create a new ssh use ssh-keygen command.
+
+To use the created ssh public key on server use ssh-copy-id root@serverhost command.
+
+To setup ssh on your server
+- on your local machine/host you need to create ssh with ssh-keygen command
+- copy the id_rsa.pub
+- Theres 2 alternative way to copy the ssh id.pub
+  1. You can use ssh-copy-id user@serverhost
+  2. Store the id_rsa.pub on server ~/.ssh/authorized_keys folder 
+    then use the command:
+    cat ~/.ssh/id_rsa.pub | ssh demo@198.51.100.0 "mkdir -p ~/.ssh && chmod 700 ~/.ssh && cat >>  ~/.ssh/authorized_keys"
+- Then your already setup!. You can connect to your server without password by using ssh that you generated!
