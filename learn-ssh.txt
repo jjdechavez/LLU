@@ -56,6 +56,15 @@ sample: scp ~/test.txt jerald@192.168.3.29:~/Document
     - run again the ssh-add /home/jerald/.ssh/id_rsa_github command; which return the Identity added: /home/jerald/.ssh/id_rsa_github
   4. you can clone the repo from github
 
+  - Make sure the install nodejs on serverhost
+  - To add the react project set to production
+    1. run the build command of CRA with npm run build command
+    2. remove the index.html on /var/www/html/index.html
+    3. move the build react project on /var/www/html by sudo mv -v /home/jerald/sample-react/build/* /var/www/html/
+    4. check on your browser with ip only without the port; sample 192.168.3.29 on browser and display the react project
+    5. To add domain for the react project; Go to Networking DigitalOcean then make sure add the DNS record like ns1.digitalocean.com to ns3.digitalocean....
+    6. Enter to the hostname just @ and will direct to droplet ubuntu/serverhost that created
+
 
 Common Issue:
 - When you already set the ssh id_rsa.pub on the hostserver and still you can't connect
