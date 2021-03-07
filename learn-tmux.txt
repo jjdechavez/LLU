@@ -1,0 +1,50 @@
+To install tmux
+On apt: `sudo apt-get install tmux`.
+
+Open tmux:
+- run `tmux` and it will show green bar on the buttom.
+
+`[name-session] 0:nvim*`
+
+`[name-session]` the name of the session where you're working on.
+`0:nvim` the window name; `0` page of the window and `:nvim` the name of the window and the `*` your current window.
+
+To run command tmux:
+`ctrl+b <command>`
+
+Panes on tmux:
+Vertical split pane:
+`ctrl+b %`
+Horizontal split pane:
+`ctrl+b "`
+Exit on pane:
+`exit`
+Move in your diffrent pane use the arrow keys:
+`ctrl+b <` - Move to the left pane;
+`ctrl+b > - Move to the right pane;
+`ctrl+b ^ - Move to the up pane;
+`ctrl+b v - Move to the down pane;
+
+Windows on tmux:
+Create a new window:
+`ctrl+b c`
+Move on your last window:
+`ctrl+b l`
+Move on your next window:
+`ctrl+b n`
+Rename your window:
+`ctrl+b ,`
+Detached on your window:
+`ctrl+b d`
+
+Commands on tmux:
+List of the sessions:
+`tmux ls`
+Attached on session:
+`tmux attach -t <session-name>`
+Rename your session:
+`tmux rename-session -t <session-name> <renamed-session>`
+Create a session:
+`tmux new -s <session-name>`
+Kill a session:
+`tmux kill-session -t <session-name>`
