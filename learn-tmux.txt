@@ -31,6 +31,14 @@ Vertical Pane:
 Horizontal Pane:
 `ctrl+b ctrl+^ - Resize to the top;
 `ctrl+b ctrl+v - Resize to the bottom;
+Move through panes in order.
+`ctrl+b O`
+Swap position of the current pane with the next:
+`ctrl+b {`
+Swap position of the current pane with the previous:
+`ctrl+b }`
+Close current pane:
+`ctrl+b X`
 
 Windows on tmux:
 Create a new window:
