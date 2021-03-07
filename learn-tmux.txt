@@ -2,7 +2,7 @@ To install tmux
 On apt: `sudo apt-get install tmux`.
 
 Open tmux:
-- run `tmux` and it will show green bar on the buttom.
+- run `tmux` and it will show green bar on the bottom.
 
 `[name-session] 0:nvim*`
 
@@ -24,6 +24,13 @@ Move in your diffrent pane use the arrow keys:
 `ctrl+b > - Move to the right pane;
 `ctrl+b ^ - Move to the up pane;
 `ctrl+b v - Move to the down pane;
+Resize your panes with arrow keys:
+Vertical Pane:
+`ctrl+b ctrl+>` - Resize to the left;
+`ctrl+b ctrl+< - Resize to the right;
+Horizontal Pane:
+`ctrl+b ctrl+^ - Resize to the top;
+`ctrl+b ctrl+v - Resize to the bottom;
 
 Windows on tmux:
 Create a new window:
