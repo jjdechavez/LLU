@@ -37,6 +37,14 @@ Rename your window:
 Detached on your window:
 `ctrl+b d`
 
+Session on tmux:
+List sessions:
+`ctrl+b S`
+Rename current session:
+`ctrl+b $`
+Detach current session:
+`ctrl+b D`
+
 Commands on tmux:
 List of the sessions:
 `tmux ls`
