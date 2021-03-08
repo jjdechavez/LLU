@@ -71,3 +71,8 @@ Create a session:
 `tmux new -s <session-name>`
 Kill a session:
 `tmux kill-session -t <session-name>`
+
+Source file:
+`tmux source-file <path-to-.tmux.conf>`
+Open tmux and applied the tmux.config:
+create a `.tmux.conf` on your home directory
