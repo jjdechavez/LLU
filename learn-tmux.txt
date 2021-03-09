@@ -72,6 +72,10 @@ Create a session:
 Kill a session:
 `tmux kill-session -t <session-name>`
 
+How to copy paste on tmux:
+First, you must on copy mode with `Ctrl+b [` then highlight that you want to copy.
+To paste the clipboard `ctrl+b ]`
+
 Source file:
 `tmux source-file <path-to-.tmux.conf>`
 Open tmux and applied the tmux.config:
