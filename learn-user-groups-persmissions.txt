@@ -3,6 +3,7 @@ About User (user means: name of the user)
 2. Delete user - sudo userdel user
 3. See all the user - view /etc/passwd
 4. Change password - sudo passwd
+5. Change user - su - (username)
 
 About Groups
 1. Add to group - sudo groupadd samplegroup
