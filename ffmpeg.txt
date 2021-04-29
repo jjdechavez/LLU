@@ -1,4 +1,4 @@
-FFmpeg
+Screencast with ffmpeg(to learn more `man ffmpeg`)
 
 -f - means format
 -s - size of screen(make sure put -s flag before -i flag)
