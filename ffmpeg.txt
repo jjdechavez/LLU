@@ -1,0 +1,16 @@
+FFmpeg
+
+-f - means format
+-s - size of screen(make sure put -s flag before -i flag)
+-i - infile
+last argument the file name of outfile
+
+command:
+  ffmpeg -f x11grab -s 1920x1080 -i :0.0 out.mkv
+
+Tips:
+to get your dimensions of your screensize you can use xdpyinfo | grep dimensions | awk '{print $2;}'
+
+xdpyinfo - display information utility
+grep dimensions - filter and get the dimenseions
+awk '{print $2;}' - get the second argument
