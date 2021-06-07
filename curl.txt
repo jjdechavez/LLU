@@ -34,3 +34,6 @@ Note: Unnecessary use of -X or --request, POST is already inferred.
 <
 * Connection #0 to host localhost left intact
 Blog post added!
+
+Uploading files, simply add @ symbol before the file location:
+curl -X POST -F 'image=@/home/user/Pictures/wallpaper.jpg' http://example.com/upload
