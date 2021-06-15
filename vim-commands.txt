@@ -58,6 +58,16 @@ Check out :help window-moving for more information
  - :G add
  - :G commit 
 
+ Search and replace
+For example, to search for the first occurrence of the string ‘foo’ in the current line and replace it with ‘bar’, you would use:
+:s/foo/bar/
+
+To replace all occurrences of the search pattern in the current line, add the g flag:
+:s/foo/bar/g
+
+If you want to search and replace the pattern in the entire file, use the percentage character % as a range.
+This character indicates a range from the first to the last line of the file:
+:%s/foo/bar/g
 
  Main used commands
 
