@@ -5,8 +5,11 @@ Screencast with ffmpeg(to learn more `man ffmpeg`)
 -i - infile
 last argument the file name of outfile
 
-command:
+Capture without sound command:
   ffmpeg -f x11grab -s 1920x1080 -i :0.0 out.mkv
+
+Capture with sound(Built in) command:
+ffmpeg -f pulse -ac 2 -i default -f x11grab -r 30 -s 1920x1080 -i :0.0 -acodec pcm_s16le -vcodec libx264 -preset ultrafast -threads 0 -y output.mkv 
 
 Tips:
 to get your dimensions of your screensize you can use xdpyinfo | grep dimensions | awk '{print $2;}'
