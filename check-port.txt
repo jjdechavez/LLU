@@ -1,0 +1,10 @@
+To get a list of all listening TCP ports with lsof type:
+sudo lsof -nP -iTCP -sTCP:LISTEN
+
+The options used are as follows:
+  -n - Do not convert port numbers to port names.
+  -p - Do not resolve hostnames, show numerical addresses.
+  -iTCP -sTCP:LISTEN - Show only network files with TCP state LISTEN.
+
+Check particular Port:
+sudo lsof -nP -iTCP:3306 -sTCP:LISTEN
