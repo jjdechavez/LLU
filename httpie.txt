@@ -1,6 +1,9 @@
 Httpie human friendly CLI
 To learn more check: https://httpie.io/docs
 
+Python plugins(Interesting):
+- httpie-jwt-auth: https://github.com/teracyhq/httpie-jwt-auth
+
 Basic command:
 http [flags] [METHOD] URL [ITEM]
 
