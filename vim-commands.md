@@ -1,13 +1,15 @@
-Make sure to install vim
-sudo apt-get install vim
+### Make sure to install vim
 
-Commands of Vim
+`sudo apt-get install vim`
+
+### Commands of Vim
+
 1. To execute commands of vim - Esc
 2. Insert/type data - i
 3. arrow keys - up(k), down(j), left(h), right(l)
 4. exit on vim - :q
- -> exit with save - :wq
- -> exit without saving - :q!
+   - exit with save - :wq
+   - exit without saving - :q!
 5. save file - :w
 6. delete line - dd
 7. down of the file - G
@@ -27,7 +29,7 @@ Commands of Vim
 21. cursor of the last of the line - $
 22. change specific then inser mode - c t j(want to remove)
 23. delete specific character - d t /(character)
-24. search with specific word - *(must cursor on the word inorder to search)
+24. search with specific word - \*(must cursor on the word inorder to search)
 25. focus on specific character - t
 26. next to instance - ;
 27. move view on the middle - zz
@@ -40,43 +42,46 @@ Commands of Vim
 34. replace depend the cursor - r
 35. check the end based on the character - %
 
-" Moving windows / multiple windows
+### Moving windows / multiple windows
 
- - Ctrl W + L - Move the current window to the "far right"
- - Ctrl W + H - Move the current window to the "far left"
- - Ctrl W + J - Move the current window to the "very bottom"
- - Ctrl W + K - Move the current window to the "very top"
+- Ctrl W + L - Move the current window to the "far right"
+- Ctrl W + H - Move the current window to the "far left"
+- Ctrl W + J - Move the current window to the "very bottom"
+- Ctrl W + K - Move the current window to the "very top"
 
 Check out :help window-moving for more information
 
-" Resize split window
- - :res 50(width)   - Resize vertical base on 
- - :vertical res 50 - Resize horizontal 
+### Resize split window
 
-" git/fugitive
- - :Git (or just :G), which calls any arbitrary Git command.
- - :G add
- - :G commit 
+- :res 50(width) - Resize vertical base on
+- :vertical res 50 - Resize horizontal
 
- Search and replace
+### git/fugitive
+
+- :Git (or just :G), which calls any arbitrary Git command.
+- :G add
+- :G commit
+
+### Search and replace
+
 For example, to search for the first occurrence of the string ‘foo’ in the current line and replace it with ‘bar’, you would use:
-:s/foo/bar/
+`:s/foo/bar/`
 
 To replace all occurrences of the search pattern in the current line, add the g flag:
-:s/foo/bar/g
+`:s/foo/bar/g`
 
 If you want to search and replace the pattern in the entire file, use the percentage character % as a range.
 This character indicates a range from the first to the last line of the file:
-:%s/foo/bar/g
+`:%s/foo/bar/g`
 
- Main used commands
+Main used commands
 
 1. w
 2. b
-3. t /(specific character) 
+3. t /(specific character)
 4. zz
 5. a and A
-6. I 
+6. I
 7. ~ (turn the opposite letterseCase)
 8. .
 9. % d %
