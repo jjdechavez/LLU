@@ -80,3 +80,6 @@ networks:
     external:
       name: solanaland-network
 ```
+
+References:
+[docker network](https://docs.docker.com/compose/how-tos/networking/)
